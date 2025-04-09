@@ -44,7 +44,7 @@ async def permalink_click_handler(event):
 @when("click", "#github_button")
 async def github_click_handler(event):
     """Goto Github link handler."""
-    window.open("https://github.com/ross-spencer/0xffae", "_blank").focus()
+    window.open("https://github.com/ffdev-info/0xffae", "_blank").focus()
 
 
 @when("click", "#results")
