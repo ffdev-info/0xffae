@@ -38,7 +38,7 @@ async def permalink_click_handler(event):
     """Permalink event handler."""
     link = document.getElementById("permalink").value
     url = location.host
-    prompt("0xffae permalink", f"{url}?permalink={link}")
+    prompt("0xffae permalink", f"{url}/0xffae/?permalink={link}")
 
 
 @when("click", "#github_button")
