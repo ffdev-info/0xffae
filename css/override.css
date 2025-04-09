@@ -1,0 +1,59 @@
+/* Override CSS */
+
+h1.title {
+  font-size: 1.7em;
+  letter-spacing: -.05rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0 0 0 0;
+  text-transform: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2.subtitle {
+  font-size: 1.0em;
+  letter-spacing: 0;
+  margin:  0 0 0 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+div.results {
+	color-scheme: dark !important;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    word-wrap: break-word;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.8rem;
+    border: 1px dashed #555;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: justify;
+    color: #222;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+strong {
+    font-size: 3rem;
+}
+
+pre {
+    margin: 0px;
+    padding: 0px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}

@@ -1,0 +1,141 @@
+<!-- 0xffae -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Site metadata -->
+      <title>0xffae.ffdev.info</title>
+      <meta name="title" content="💾 0xffae.ffdev.info" />
+      <meta name="author" content="Ross Spencer"/>
+      <meta name="author" content="@beet_keeper"/>
+      <meta name="description" content="Returns a random file-format represented in emoji"/>
+      <meta name="keywords" content="Digital Preservation, digipres, emoji, File-Formats"/>
+      <meta name="rating" content="Fun"/>
+      <!-- w3schools css -->
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <!-- pyscript -->
+      <link rel="stylesheet" href="https://pyscript.net/releases/2024.6.2/core.css"/>
+      <script type="module" src="https://pyscript.net/releases/2024.6.2/core.js">
+         // do not delete...
+      </script>
+      <!-- Skeleton imports -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/skeleton.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="./css/noprint.css" />
+      <link rel="stylesheet" href="./css/override.css" />
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="customize/favicon.ico" />
+      <!-- FontAwesome -->
+      <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <py-config src="./pyscript.toml"></py-config>
+      <py-script src="./random_page.py"></py-script>
+      <div class="container">
+         <div class="row">
+            <div class="two columns" style="margin-top: 5%;">
+               <!-- 🖫 is a nicer symbol but seems to have less browser support. -->
+               <h1 style="color: #0d9fe6;">
+                  💾&nbsp;||&nbsp;
+               </h1>
+            </div>
+            <div class="ten columns" style="margin-top: 5%; margin-left: -2%">
+               <span>
+               <h1 class="title">0xffae</h1>
+               <p class="subtitle">
+                  file-formats as emoji: <code>0xffae</code>
+               </p>
+            </div>
+         </div>
+         <div class="row noprint">
+            <div class="ten columns">
+               <details>
+                  <summary>A little whimsy for those learning about file-format signatures...&nbsp;&nbsp;&nbsp;
+                     <ins>more info ▼</ins>
+                  </summary>
+                  <div>
+                     <p>
+                        <br/>
+                        Emoji provide a visual reprersentation of the MAGIC bytes PRONOM uses to
+                        identify files. Specific bytes and gaps between those become more apparent.
+                        <br/><br/>
+                        Data is generated from <a href="https://www.nationalarchives.gov.uk/pronom/" target="_blank">
+                        PRONOM
+                        </a> and the <a href="https://github.com/exponential-decay/skeleton-test-suite-generator" target="_blank">
+                        skeleton-test-suite
+                        </a>. More information is available in the
+                        <a href="https://github.com/ross-spencer/0xffae/README.md" target="_blank">GitHub README</a>.
+                        <br/>
+                        <strong></strong><a href="https://rada.re/n/" target="_blank">radare2</a></strong>
+                        is a powerful command-line hex-editor and binary explorer that the
+                        #digipres community might be interested in exploring further.
+                     </p>
+                  </div>
+               </details>
+            </div>
+         </div>
+         <br/>
+         <hr/>
+         <div class="row">
+            <div class="twelve columns">
+               <div id="resultsMetadata"></div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="twelve columns">
+               <param class="permalink" id="permalink" hidden >
+               <param id="bytes_cache" hidden >
+               <param id="emoji_cache" hidden >
+               </param>
+               <div class="results" id="results"></div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="twelve columns">
+               <p>
+                  To create in
+                  <a href="https://rada.re/n/" target="_blank">radare</a>:
+                  <code>
+                  r2 -q -c 'pxe
+                  {f_sz_bytes}'
+                  {filename}
+                  </code>
+               </p>
+            </div>
+         </div>
+         <hr/>
+         <div class="row noprint">
+            <div class="three columns">
+               <param id="original_toggle" value="off" />
+               <button class="button u-full-width" id="original_button">🌐 show original</button>
+            </div>
+            <div class="three columns">
+               <button class="button u-full-width" id="new_result_button">💾 get random</button>
+            </div>
+            <div class="three columns">
+               <button class="button u-full-width" id="permalink_button">🔗 permalink</button>
+            </div>
+            <div class="three columns">
+               <button class="button u-full-width" id="github_button">🛈 github</button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="seven columns">
+               &nbsp;
+            </div>
+            <div class="five columns">
+               <p style="text-align: right;">
+                  <br/>
+                  <small>Site conceived and demoed in 2016. <br>Modern
+                  components written in 2025 © <a href="https://exponentialdecay.co.uk/blog" target="_blank">@beet_keeper</a> 2025
+                  </small>
+               </p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

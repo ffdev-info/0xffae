@@ -1,0 +1,6 @@
+packages = [
+    "sqlite3",
+]
+
+[files]
+"./sqlite/random.db" = "random.db"

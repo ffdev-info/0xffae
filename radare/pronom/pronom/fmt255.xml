@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PRONOM-Report xmlns="http://pronom.nationalarchives.gov.uk">
+  <report_format_detail>
+    <FileFormat>
+      <FormatID>993</FormatID>
+      <FormatName>DjVu File Format</FormatName>
+      <FormatVersion>
+      </FormatVersion>
+      <FormatAliases>
+      </FormatAliases>
+      <FormatFamilies>
+      </FormatFamilies>
+      <FormatTypes>Image (Raster)</FormatTypes>
+      <FormatDisclosure>
+      </FormatDisclosure>
+      <FormatDescription>The Digital Video file format was developed as a videocassette format in the 1990s by a consortium of consumer video companies and is described in the IEC 61834 series of standards. DV video content utilizes Discrete Cosine Transform compression, but allows for higher quality than formats that use similar compression schemes. DV files can be "raw" with the .dv file extension or wrapped into video container formats.</FormatDescription>
+      <BinaryFileFormat>Text</BinaryFileFormat>
+      <ByteOrders>
+      </ByteOrders>
+      <ReleaseDate>
+      </ReleaseDate>
+      <WithdrawnDate>
+      </WithdrawnDate>
+      <ProvenanceSourceID>149</ProvenanceSourceID>
+      <ProvenanceName>National Library of Singapore / National Library Board Singapore</ProvenanceName>
+      <ProvenanceSourceDate>08 Jan 2010</ProvenanceSourceDate>
+      <ProvenanceDescription>v.120- Updated description as part of PRONOM Research Week 2024. Submitted by the Digital Research Alliance of Canada - Federated Research Data Repository / Alliance de recherche numérique du Canada - Dépôt fédéré de données de recherche.</ProvenanceDescription>
+      <LastUpdatedDate>02 Jan 2025</LastUpdatedDate>
+      <FormatNote>
+      </FormatNote>
+      <FormatRisk>
+      </FormatRisk>
+      <TechnicalEnvironment>
+      </TechnicalEnvironment>
+      <FileFormatIdentifier>
+        <Identifier>fmt/255</Identifier>
+        <IdentifierType>PUID</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
+        <Identifier>image/vnd.djvu</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <FileFormatIdentifier>
+        <Identifier>image/x-djvu</Identifier>
+        <IdentifierType>MIME</IdentifierType>
+      </FileFormatIdentifier>
+      <Developers>
+        <DeveloperID>151</DeveloperID>
+        <DeveloperName>
+        </DeveloperName>
+        <OrganisationName>Caminova Corporation</OrganisationName>
+        <DeveloperCompoundName>Caminova Corporation</DeveloperCompoundName>
+      </Developers>
+      <Support>
+        <SupportID>151</SupportID>
+        <SupportName>
+        </SupportName>
+        <OrganisationName>Caminova Corporation</OrganisationName>
+        <SupportCompoundName>Caminova Corporation</SupportCompoundName>
+      </Support>
+      <ExternalSignature>
+        <ExternalSignatureID>950</ExternalSignatureID>
+        <Signature>djvu</Signature>
+        <SignatureType>File extension</SignatureType>
+      </ExternalSignature>
+      <ExternalSignature>
+        <ExternalSignatureID>1067</ExternalSignatureID>
+        <Signature>djv</Signature>
+        <SignatureType>File extension</SignatureType>
+      </ExternalSignature>
+      <InternalSignature>
+        <SignatureID>411</SignatureID>
+        <SignatureName>DjVu File Format</SignatureName>
+        <SignatureNote>Header ASCII: AT&amp;T  followed by container Chunk FORM, then either DJVMDIRM or DJVUINFO as secondary identifiers to DjVu document type. This is a generic signature which will identify all DjVu files up to DjVu specifications v3. No distinction is made between single or multi page documents, or any internal image encoding.</SignatureNote>
+        <ByteSequence>
+          <ByteSequenceID>517</ByteSequenceID>
+          <PositionType>Absolute from BOF</PositionType>
+          <Offset>0</Offset>
+          <MaxOffset>
+          </MaxOffset>
+          <IndirectOffsetLocation>
+          </IndirectOffsetLocation>
+          <IndirectOffsetLength>
+          </IndirectOffsetLength>
+          <Endianness>
+          </Endianness>
+          <ByteSequenceValue>41542654464F524D{4}(444A564D4449524D|444A5655494E464F)</ByteSequenceValue>
+        </ByteSequence>
+      </InternalSignature>
+    </FileFormat>
+    <SearchCriteria>Criteria</SearchCriteria>
+  </report_format_detail>
+</PRONOM-Report>
