@@ -47,8 +47,9 @@ with the technology and finally write myself a random page generator.
 ## Random page generation
 
 The script here should be pretty flexible if you'd like to create your own
-random page generator. There are easier ways than using a database of course
-but the database gives us some nice capabilities.
+random page generator. There are easier ways than using a database of course so
+you might ignore that part but the database also gives us some nice
+possibilities.
 
 ## License
 

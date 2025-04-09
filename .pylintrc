@@ -33,6 +33,7 @@ ignore-patterns=
     ^justfile,
     ^\.,
     ^(.+).ico,
+    ^(.+).db,
 
 ignore-paths=
     requirements/.,
